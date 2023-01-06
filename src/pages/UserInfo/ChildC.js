@@ -1,7 +1,7 @@
 import React from "react";
 import {UserInfoContext, UserInfoProvider} from "../../context/UserInfo";
 
-function ChildC({firstname, lastname}) {
+function ChildC() {
     const value = React.useContext(UserInfoContext)
     return (
         <UserInfoProvider>
