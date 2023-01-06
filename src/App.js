@@ -3,9 +3,7 @@ import Parent from "./pages/UserInfo/Parent";
 
 function App() {
     return (
-        <div className="App">
-            <Parent/>
-        </div>
+        <div className="App"><Parent/></div>
     );
 }
 
